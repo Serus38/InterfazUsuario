@@ -28,4 +28,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent registrer = new Intent(this, RegisterActivity.class);
         startActivity(registrer);
     }
+
+    public void viewUsers(View view) {
+        Intent intent = new Intent(this, ListActivity.class);
+        startActivity(intent);
+    }
 }
